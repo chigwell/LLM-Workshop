@@ -1,0 +1,48 @@
+id,text,x,y,color
+0,Benchmarking Multimodal Models for Fine-Grained,4.656378,16.071331,#dea9f5
+1,Image Analysis: A Comparative Study Across Diverse,5.188175,13.268503,#dea9f5
+2,Visual Features.,5.6534295,13.063737,#dea9f5
+3,Evgenii Evstafev A,7.9415054,15.598686,#dea9f5
+4,"A University Information Services (UIS), University of Cambridge,",8.552481,14.89851,#dea9f5
+5,"Roger Needham Building, 7 JJ Thomson Ave, Cambridge CB3 0RB, UK, ee345@cam.ac.uk",8.868071,15.10039,#dea9f5
+6,This article introduces a benchmark designed to evaluate the capabilities of multimodal models in analyzing and,5.3315506,16.842394,#dea9f5
+7,"interpreting images. The benchmark focuses on seven key visual aspects: main object, additional objects, background, detail, dominant colors, style, and viewpoint. A dataset of 14,580 images, generated from diverse text",5.3396087,14.24099,#dea9f5
+8,"prompts, was used to assess the performance of seven leading multimodal models. These models were evaluated",5.916551,16.601364,#dea9f5
+9,"on their ability to accurately identify and describe each visual aspect, providing insights into their strengths and",6.5156407,13.141038,#dea9f5
+10,weaknesses for comprehensive image understanding. The findings of this benchmark have significant implications,5.060707,13.890073,#dea9f5
+11,for the development and selection of multimodal models for various image analysis tasks,4.8975677,16.617298,#dea9f5
+12,TYPE OF PAPER AND KEYWORDS,7.309994,15.464583,#68f7dd
+13,"Benchmarking, multimodal models, image analysis, computer vision, deep learning, image understanding, visual",6.0866413,13.994438,#68f7dd
+14,"features, model evaluation",5.60867,12.68925,#68f7dd
+15,1 INTRODUCTION,8.557185,15.388003,#68f7dd
+16,"Multimodal models, capable of processing and integrating information from multiple modalities such as",5.583829,16.506704,#68f7dd
+17,"text and images [1], have emerged as a powerful tool for",7.146251,15.704437,#68f7dd
+18,comprehensive image understanding [2]. These models,5.580782,13.900254,#68f7dd
+19,"hold the potential to revolutionize various applications,",3.9814396,13.7694645,#68f7dd
+20,"including image retrieval, content creation, and humancomputer interaction. However, evaluating their ability",6.924276,13.493704,#68f7dd
+21,to capture fine-grained details and contextual information remains a crucial challenge [3]. This article presents a benchmark for evaluating the performance of different multimodal models in identifying and analyzing,5.2725453,15.985512,#68f7dd
+22,"specific aspects of images, such as the main object, additional objects, background, details, dominant colors,",5.9712853,13.591402,#68f7dd
+23,"style, and viewpoint. By comparing their performance",6.6597285,13.200787,#68f7dd
+24,"across a range of tasks, this research aims to provide insights into the strengths and weaknesses of different",7.4149427,14.0276785,#68f7dd
+25,multimodal approaches for fine-grained image analysis.,4.440472,16.170143,#68f7dd
+26,2. BACKGROUND AND RELATED WORK,8.936837,15.195211,#68f7dd
+27,"Multimodal models in computer vision use the interplay between different modalities, such as text and images, to achieve a more holistic understanding of visual",5.754241,16.186405,#68f7dd
+28,content [4]. This approach has shown promising results,4.0190983,13.242545,#68f7dd
+29,"in various tasks, including image captioning, visual",7.0422993,13.840028,#68f7dd
+30,"question answering, and image generation [5]. Recent",5.9474435,15.166176,#68f7dd
+31,"advancements in deep learning, particularly the development of transformer-based architectures, have further",4.2336936,14.036219,#68f7dd
+32,accelerated progress in this field. Models like CLIP,3.8292518,13.428128,#68f7dd
+33,(Contrastive Language-Image Pre-training [6]) have,5.066173,14.547139,#68f7dd
+34,demonstrated the ability to learn robust representations,4.6754255,14.213625,#68f7dd
+35,that capture the semantic relationship between images,5.562128,15.79557,#68f7dd
+36,"and text [7]. However, there is a need for standardized",6.905686,15.327885,#68f7dd
+37,benchmarks to evaluate the performance of multimodal,5.696122,17.023767,#68f7dd
+38,"models in fine-grained image analysis, as existing",4.2652016,15.883069,#68f7dd
+39,benchmarks often focus on broader tasks without explicitly assessing their ability to capture subtle details and,7.6565437,13.367603,#68f7dd
+40,contextual information [8]. This research addresses this,7.4495277,14.557998,#68f7dd
+41,gap by introducing a benchmark that specifically targets,7.7622247,13.265863,#68f7dd
+42,"the analysis of diverse visual features in images, enabling a more comprehensive evaluation of their capabilities.",5.261254,13.056911,#68f7dd
+43,3. METHODOLOGY,9.1528425,14.807459,#68f7dd
+44,3.1 DATASET CREATION,9.161969,14.187075,#68f7dd
+45,The dataset creation process involved generating a,9.341772,14.460614,#68f7dd
+46,diverse set of image descriptions (prompts) by systematically combining distinct visual aspects. These,6.059851,15.582069,#68f7dd

@@ -1,0 +1,13 @@
+Benchmarking Multimodal Models for Fine-Grained
+Image Analysis: A Comparative Study Across Diverse
+Visual Features.
+Evgenii Evstafev A
+A University Information Services (UIS), University of Cambridge,
+Roger Needham Building, 7 JJ Thomson Ave, Cambridge CB3 0RB, UK, ee345@cam.ac.uk
+ABSTRACT
+This article introduces a benchmark designed to evaluate the capabilities of multimodal models in analyzing and
+interpreting images. The benchmark focuses on seven key visual aspects: main object, additional objects, background, detail, dominant colors, style, and viewpoint. A dataset of 14,580 images, generated from diverse text
+prompts, was used to assess the performance of seven leading multimodal models. These models were evaluated
+on their ability to accurately identify and describe each visual aspect, providing insights into their strengths and
+weaknesses for comprehensive image understanding. The findings of this benchmark have significant implications
+for the development and selection of multimodal models for various image analysis tasks

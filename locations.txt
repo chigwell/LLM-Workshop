@@ -1,0 +1,9 @@
+Perm, Russia, 614000
+Moscow, Russia, 101000
+Saint Petersburg, Russia, 190000
+Istanbul, Turkey, 34000
+Alanya, Turkey, 74000
+Almaty, Kazakhstan, 050000
+London, UK, EC3V 9AD
+Cambridge, UK, CB2 1TN
+Ely, UK, CB7 4JF
