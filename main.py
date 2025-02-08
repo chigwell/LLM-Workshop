@@ -9,7 +9,6 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_ollama import ChatOllama
 from langchain_core.messages import HumanMessage, SystemMessage, AIMessage
 
-from test import response
 
 llm = ChatOllama(model="llama3.1:8b", temperature=0, stream=True)
 
